@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management System</title>
+
+    <style>
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Element Selector */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf2f8;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+            margin-bottom: 20px;
+        }
+
+        /* ID Selector */
+        #employee-box {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid navy;
+            border-radius: 10px;
+        }
+
+        /* Class Selector */
+        .employee-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .employee-table th {
+            background-color: #2874a6;
+            color: white;
+            padding: 12px;
+        }
+
+        .employee-table td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #999;
+        }
+
+        /* Group Selector */
+        h2, p {
+            text-align: center;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+
+        /* Class Selector */
+        .employee-table tr:nth-child(even) {
+            background-color: #d6eaf8;
+        }
+
+        .employee-table tr:hover {
+            background-color: #aed6f1;
+        }
+
+        /* Element Selector */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Employee Management System</h1>
+
+    <div id="employee-box">
+
+        <h2>Employee Information</h2>
+        <p>Company Employee Details</p>
+
+        <table class="employee-table">
+
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Designation</th>
+                <th>Department</th>
+                <th>Salary</th>
+            </tr>
+
+            <tr>
+                <td>101</td>
+                <td>Rahul</td>
+                <td>Manager</td>
+                <td>HR</td>
+                <td>₹50,000</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Priya</td>
+                <td>Developer</td>
+                <td>IT</td>
+                <td>₹40,000</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Amit</td>
+                <td>Designer</td>
+                <td>Design</td>
+                <td>₹35,000</td>
+            </tr>
+
+            <tr>
+                <td>104</td>
+                <td>Sneha</td>
+                <td>Accountant</td>
+                <td>Finance</td>
+                <td>₹30,000</td>
+            </tr>
+
+            <tr>
+                <td>105</td>
+                <td>Arjun</td>
+                <td>Tester</td>
+                <td>IT</td>
+                <td>₹32,000</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Employee Management System</p>
+    </footer>
+
+</body>
+</html>
