@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Information</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: navy;
+        }
+
+        /* Flexbox Container */
+        .doctor-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 38px;
+        }
+
+        /* Doctor Cards */
+        .doctor-card {
+            background-color: white;
+            border: 2px solid #87ceeb;
+            border-radius: 10px;
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .doctor-card h3 {
+            color: navy;
+            margin-bottom: 15px;
+        }
+
+        .doctor-card p {
+            font-size: 16px;
+            color: #333;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Doctor Information</h2>
+
+    <div class="doctor-container">
+
+        <div class="doctor-card">
+            <h3>Dr. Ravi</h3>
+            <p>Specialization: Cardiologist</p>
+            <p>Experience: 10 Years</p>
+            <p>Timing: 9 AM - 1 PM</p>
+        </div>
+
+        <div class="doctor-card">
+            <h3>Dr. Priya</h3>
+            <p>Specialization: Dermatologist</p>
+            <p>Experience: 8 Years</p>
+            <p>Timing: 10 AM - 2 PM</p>
+        </div>
+
+        <div class="doctor-card">
+            <h3>Dr. Kumar</h3>
+            <p>Specialization: Dentist</p>
+            <p>Experience: 5 Years</p>
+            <p>Timing: 2 PM - 6 PM</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
